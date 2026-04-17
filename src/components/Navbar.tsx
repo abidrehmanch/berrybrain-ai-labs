@@ -59,8 +59,12 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm">Sign in</Button>
-            <Button variant="hero" size="sm">Get started</Button>
+            <Button variant="ghost" size="sm" asChild>
+              <a href="#contact">Contact</a>
+            </Button>
+            <Button variant="hero" size="sm" asChild>
+              <a href="#contact">Start a project</a>
+            </Button>
           </div>
 
           <button
@@ -85,8 +89,12 @@ const Navbar = () => {
               </a>
             ))}
             <div className="flex gap-2 pt-2">
-              <Button variant="ghost" size="sm" className="flex-1">Sign in</Button>
-              <Button variant="hero" size="sm" className="flex-1">Get started</Button>
+              <Button variant="ghost" size="sm" className="flex-1" asChild>
+                <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
+              </Button>
+              <Button variant="hero" size="sm" className="flex-1" asChild>
+                <a href="#contact" onClick={() => setOpen(false)}>Start a project</a>
+              </Button>
             </div>
           </div>
         )}
