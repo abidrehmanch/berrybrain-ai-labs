@@ -4,9 +4,9 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/berrybrain-logo.png";
 
 const links = [
-  { href: "#features", label: "Features" },
-  { href: "#solutions", label: "Solutions" },
-  { href: "#pricing", label: "Pricing" },
+  { href: "#services", label: "Services" },
+  { href: "#process", label: "Process" },
+  { href: "#industries", label: "Industries" },
   { href: "#about", label: "About" },
 ];
 
