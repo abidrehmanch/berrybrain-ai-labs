@@ -12,32 +12,35 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-up">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs font-medium text-muted-foreground mb-8">
             <Sparkles size={14} className="text-primary" />
-            Introducing BerryBrain v2 — now with autonomous agents
+            AI engineering studio · From idea to deployment
           </div>
 
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05] mb-6">
-            Intelligence that
+            Build intelligent AI systems
             <br />
-            <span className="text-gradient">thinks with you.</span>
+            that <span className="text-gradient">scale your business.</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            BerryBrain AI builds advanced agents, copilots, and automation so modern
-            teams ship faster, decide smarter, and scale effortlessly.
+            We're an AI engineering company helping startups and enterprises design,
+            build and deploy production-ready solutions using Generative AI, Machine
+            Learning and scalable backend systems.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button variant="hero" size="xl" className="group">
-              Start building free
-              <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" size={18} />
+            <Button variant="hero" size="xl" className="group" asChild>
+              <a href="#contact">
+                Start a project
+                <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" size={18} />
+              </a>
             </Button>
-            <Button variant="glass" size="xl">
-              Book a demo
+            <Button variant="glass" size="xl" asChild>
+              <a href="#services">Explore services</a>
             </Button>
           </div>
 
           <p className="text-xs text-muted-foreground mt-6">
-            No credit card required · 14-day pro trial · SOC 2 compliant
+            Generative AI · ML & Deep Learning · Backend & MLOps
           </p>
         </div>
 

@@ -2,20 +2,20 @@ import logo from "@/assets/berrybrain-logo.png";
 
 const groups = [
   {
-    title: "Product",
-    links: ["Features", "Pricing", "Changelog", "Roadmap"],
+    title: "Services",
+    links: ["Generative AI", "AI Agents", "Machine Learning", "Deep Learning", "Backend & APIs"],
   },
   {
     title: "Company",
-    links: ["About", "Careers", "Press", "Contact"],
+    links: ["About", "Process", "Industries", "Contact"],
   },
   {
     title: "Resources",
-    links: ["Docs", "Blog", "Guides", "API reference"],
+    links: ["Case studies", "Blog", "Careers", "Documentation"],
   },
   {
     title: "Legal",
-    links: ["Privacy", "Terms", "Security", "DPA"],
+    links: ["Privacy", "Terms", "Security"],
   },
 ];
 
@@ -31,7 +31,8 @@ const Footer = () => (
             </span>
           </div>
           <p className="text-sm text-muted-foreground max-w-xs leading-relaxed">
-            Intelligent systems for modern teams. Built with care in San Francisco & Berlin.
+            An AI engineering studio building production-ready Generative AI,
+            Machine Learning and backend systems.
           </p>
         </div>
 
@@ -52,8 +53,8 @@ const Footer = () => (
       </div>
 
       <div className="pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} BerryBrain AI, Inc. All rights reserved.</p>
-        <p>Crafted with intelligence — and a little berry.</p>
+        <p>© {new Date().getFullYear()} BerryBrain AI. All rights reserved.</p>
+        <p>From idea to deployment — engineered with care.</p>
       </div>
     </div>
   </footer>
