@@ -203,6 +203,6 @@ export const translations = {
     },
     lang: { en: "EN", de: "DE" },
   },
-} as const;
+};
 
 export type TranslationKeys = typeof translations.en;
