@@ -14,7 +14,54 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      assessment_leads: {
+        Row: {
+          ai_maturity: string | null
+          budget: string | null
+          company: string | null
+          company_size: string | null
+          created_at: string
+          email: string
+          goals: string[] | null
+          id: string
+          industry: string | null
+          language: string | null
+          message: string | null
+          name: string
+          timeline: string | null
+        }
+        Insert: {
+          ai_maturity?: string | null
+          budget?: string | null
+          company?: string | null
+          company_size?: string | null
+          created_at?: string
+          email: string
+          goals?: string[] | null
+          id?: string
+          industry?: string | null
+          language?: string | null
+          message?: string | null
+          name: string
+          timeline?: string | null
+        }
+        Update: {
+          ai_maturity?: string | null
+          budget?: string | null
+          company?: string | null
+          company_size?: string | null
+          created_at?: string
+          email?: string
+          goals?: string[] | null
+          id?: string
+          industry?: string | null
+          language?: string | null
+          message?: string | null
+          name?: string
+          timeline?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
