@@ -2,17 +2,21 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import logo from "@/assets/berrybrain-logo.png";
-
-const links = [
-  { href: "#services", label: "Services" },
-  { href: "#process", label: "Process" },
-  { href: "#industries", label: "Industries" },
-  { href: "#about", label: "About" },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
+import LanguageToggle from "./LanguageToggle";
 
 const Navbar = () => {
+  const { t } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+
+  const links = [
+    { href: "#services", label: t.nav.services },
+    { href: "#pov", label: t.nav.pov },
+    { href: "#process", label: t.nav.process },
+    { href: "#industries", label: t.nav.industries },
+    { href: "#assessment", label: t.nav.assessment },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -46,7 +50,7 @@ const Navbar = () => {
             </span>
           </a>
 
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-7">
             {links.map((l) => (
               <a
                 key={l.href}
@@ -59,11 +63,9 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm" asChild>
-              <a href="#contact">Contact</a>
-            </Button>
+            <LanguageToggle />
             <Button variant="hero" size="sm" asChild>
-              <a href="#contact">Start a project</a>
+              <a href="#assessment">{t.nav.startProject}</a>
             </Button>
           </div>
 
@@ -88,12 +90,10 @@ const Navbar = () => {
                 {l.label}
               </a>
             ))}
-            <div className="flex gap-2 pt-2">
-              <Button variant="ghost" size="sm" className="flex-1" asChild>
-                <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
-              </Button>
+            <div className="flex items-center justify-between gap-2 pt-2">
+              <LanguageToggle />
               <Button variant="hero" size="sm" className="flex-1" asChild>
-                <a href="#contact" onClick={() => setOpen(false)}>Start a project</a>
+                <a href="#assessment" onClick={() => setOpen(false)}>{t.nav.startProject}</a>
               </Button>
             </div>
           </div>
