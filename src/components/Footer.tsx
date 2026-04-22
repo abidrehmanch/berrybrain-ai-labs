@@ -4,12 +4,12 @@ import { useLanguage } from "@/i18n/LanguageContext";
 const Footer = () => {
   const { t } = useLanguage();
   const navLinks = [
-    { href: "#services", label: t.nav.services },
-    { href: "#pov", label: t.nav.pov },
-    { href: "#process", label: t.nav.process },
-    { href: "#industries", label: t.nav.industries },
-    { href: "#about", label: t.nav.about },
-    { href: "#assessment", label: t.nav.assessment },
+    { href: "/#services", label: t.nav.services },
+    { href: "/#pov", label: t.nav.pov },
+    { href: "/#process", label: t.nav.process },
+    { href: "/#industries", label: t.nav.industries },
+    { href: "/#about", label: t.nav.about },
+    { href: "/#assessment", label: t.nav.assessment },
   ];
 
   return (
@@ -17,12 +17,12 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-10 mb-10">
           <div className="max-w-sm">
-            <div className="flex items-center gap-2.5 mb-4">
+            <a href="/" className="flex items-center gap-2.5 mb-4 group">
               <img src={logo} alt="BerryBrain AI logo" width={32} height={32} className="w-8 h-8" loading="lazy" />
               <span className="font-display font-semibold text-lg">
                 BerryBrain<span className="text-gradient"> AI</span>
               </span>
-            </div>
+            </a>
             <p className="text-sm text-muted-foreground leading-relaxed">{t.footer.tagline}</p>
           </div>
 

@@ -51,6 +51,13 @@ const Impressum = () => {
               <p className="text-muted-foreground leading-relaxed">{content.links}</p>
             </section>
 
+            {content.sections.map((section) => (
+              <section key={section.title}>
+                <h2 className="font-display text-2xl font-semibold mb-4">{section.title}</h2>
+                <p className="text-muted-foreground leading-relaxed">{section.body}</p>
+              </section>
+            ))}
+
             <p className="border-t border-border/60 pt-6 text-sm text-muted-foreground leading-relaxed">
               {content.note}
             </p>
