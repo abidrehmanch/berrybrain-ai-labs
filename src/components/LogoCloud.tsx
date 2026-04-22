@@ -1,4 +1,4 @@
-const logos = ["NEBULA", "OCTANE", "FORMA", "QUANTUMLY", "HELIX", "AETHER"];
+const logos = ["The Web Crew", "Thex Solution", "Apex IT Solutions", "Delta Solutions"];
 
 const LogoCloud = () => (
   <section className="py-16 border-y border-border/50">
@@ -6,7 +6,7 @@ const LogoCloud = () => (
       <p className="text-center text-xs uppercase tracking-[0.2em] text-muted-foreground mb-10">
         Trusted by forward-thinking teams worldwide
       </p>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 items-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
         {logos.map((l) => (
           <div
             key={l}
