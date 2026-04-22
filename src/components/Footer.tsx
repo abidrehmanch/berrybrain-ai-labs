@@ -52,6 +52,11 @@ const Footer = () => {
                     {t.footer.terms}
                   </a>
                 </li>
+                <li>
+                  <a href="/impressum" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                    {t.footer.impressum}
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
