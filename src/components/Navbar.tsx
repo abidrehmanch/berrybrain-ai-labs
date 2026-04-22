@@ -11,11 +11,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: "#services", label: t.nav.services },
-    { href: "#pov", label: t.nav.pov },
-    { href: "#process", label: t.nav.process },
-    { href: "#industries", label: t.nav.industries },
-    { href: "#assessment", label: t.nav.assessment },
+    { href: "/#services", label: t.nav.services },
+    { href: "/#pov", label: t.nav.pov },
+    { href: "/#process", label: t.nav.process },
+    { href: "/#industries", label: t.nav.industries },
+    { href: "/#assessment", label: t.nav.assessment },
   ];
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Navbar = () => {
             scrolled ? "glass shadow-soft" : "bg-transparent"
           }`}
         >
-          <a href="#" className="flex items-center gap-2.5 group">
+          <a href="/" className="flex items-center gap-2.5 group">
             <img
               src={logo}
               alt="BerryBrain AI logo"
@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-3">
             <LanguageToggle />
             <Button variant="hero" size="sm" asChild>
-              <a href="#assessment">{t.nav.startProject}</a>
+              <a href="/#assessment">{t.nav.startProject}</a>
             </Button>
           </div>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between gap-2 pt-2">
               <LanguageToggle />
               <Button variant="hero" size="sm" className="flex-1" asChild>
-                <a href="#assessment" onClick={() => setOpen(false)}>{t.nav.startProject}</a>
+                <a href="/#assessment" onClick={() => setOpen(false)}>{t.nav.startProject}</a>
               </Button>
             </div>
           </div>
