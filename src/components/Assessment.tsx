@@ -4,9 +4,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ArrowRight, ArrowLeft, Check, Loader2, CheckCircle2 } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
-import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import { z } from "zod";
+
+const LEAD_EMAIL = "rehmanabidch@gmail.com";
 
 interface FormState {
   industry: string;
@@ -90,24 +91,26 @@ const Assessment = () => {
       return;
     }
     setSubmitting(true);
-    const { error } = await supabase.from("assessment_leads").insert({
-      name: data.name.trim(),
-      email: data.email.trim(),
-      company: data.company.trim() || null,
-      message: data.message.trim() || null,
-      industry: data.industry || null,
-      company_size: data.size || null,
-      ai_maturity: data.maturity || null,
-      goals: data.goals.length ? data.goals : null,
-      budget: data.budget || null,
-      timeline: data.timeline || null,
-      language: lang,
-    });
+    const subject = `BerryBrain AI assessment lead: ${data.company || data.name}`;
+    const body = [
+      "New AI assessment submission",
+      "",
+      `Language: ${lang.toUpperCase()}`,
+      `Name: ${data.name.trim()}`,
+      `Email: ${data.email.trim()}`,
+      `Company: ${data.company.trim() || "-"}`,
+      `Industry: ${data.industry || "-"}`,
+      `Company size: ${data.size || "-"}`,
+      `AI maturity: ${data.maturity || "-"}`,
+      `Goals: ${data.goals.length ? data.goals.join(", ") : "-"}`,
+      `Budget: ${data.budget || "-"}`,
+      `Timeline: ${data.timeline || "-"}`,
+      "",
+      `Message: ${data.message.trim() || "-"}`,
+    ].join("\n");
+
+    window.location.href = `mailto:${LEAD_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSubmitting(false);
-    if (error) {
-      toast.error(t.assessment.errorTitle, { description: t.assessment.errorDesc });
-      return;
-    }
     setDone(true);
   };
 
