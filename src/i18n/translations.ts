@@ -11,7 +11,7 @@ export const translations = {
       assessment: "AI Assessment",
       contact: "Contact",
       startProject: "Start a project",
-      impressum: "Legal Notice",
+      impressum: "Imprint",
     },
     hero: {
       badge: "AI engineering studio · From idea to deployment",
@@ -99,65 +99,184 @@ export const translations = {
       legalTitle: "Legal",
       privacy: "Privacy Policy",
       terms: "Terms & Conditions",
-      impressum: "Impressum",
+      impressum: "Imprint",
       rights: "All rights reserved.",
     },
     legal: {
       impressum: {
-        title: "Legal Notice",
-        intro: "Legal notice for BerryBrain AI, an AI engineering studio for production-ready generative AI, machine learning and backend systems.",
-        providerTitle: "Information according to § 5 TMG",
-        provider: ["BerryBrain AI", "Germany"],
-        contactTitle: "Contact",
-        contact: ["Email: info@berrybrainai.com", "Domain: berrybrainai.com"],
-        responsibleTitle: "Responsible for content according to § 18 Abs. 2 MStV",
-        responsible: "BerryBrain AI, Germany",
-        disclaimerTitle: "Liability for content",
-        disclaimer: "We prepare the content of this website with care. However, we cannot guarantee that all information is complete, accurate or always up to date. As a service provider, we are responsible for our own content under general law.",
-        linksTitle: "Liability for links",
-        links: "This website may contain links to external websites. We have no influence over their content and therefore cannot accept liability for external content. The respective provider or operator is responsible for linked pages.",
+        title: "Imprint",
+        intro:
+          "This page provides the legal identification of BerryBrain AI, an AI engineering studio focused on Generative AI, Machine Learning and backend systems built for real production environments.",
+        providerTitle: "Service provider",
+        provider: ["BerryBrain AI", "Based in Germany"],
+        contactTitle: "How to reach us",
+        contact: ["Email: info@berrybrainai.com", "Website: berrybrainai.com"],
+        responsibleTitle: "Editorial responsibility",
+        responsible:
+          "BerryBrain AI is responsible for the editorial content published on this website.",
+        disclaimerTitle: "Content disclaimer",
+        disclaimer:
+          "We put real care into every page on this site, but we cannot promise that every detail is always complete, fully accurate or up to the minute. Within the limits of general law, we are accountable only for content we publish ourselves and not for material that visitors or third parties may submit.",
+        linksTitle: "Links to other websites",
+        links:
+          "Some pages may point to external websites we do not control. We check those destinations when a link is added, but we cannot continuously monitor what other operators publish, so the responsibility for those pages stays with their respective owners.",
         sections: [
-          { title: "Professional focus", body: "BerryBrain AI provides consulting and engineering services for AI strategy, generative AI applications, machine learning systems, backend architecture and MLOps implementation." },
-          { title: "Online dispute resolution", body: "We prefer to resolve concerns directly and fairly. If you have questions about our website or legal information, please contact us first at info@berrybrainai.com." },
-          { title: "Copyright", body: "Texts, design elements, graphics, source structure and brand assets on this website are protected by copyright and related rights. Reproduction, distribution or commercial use requires prior written permission unless legally permitted." },
-          { title: "No legal advice", body: "The information on this page is provided for transparency and does not replace individual legal advice. Business details may need to be updated once registration, address or tax information changes." },
+          {
+            title: "What we do",
+            body:
+              "BerryBrain AI helps companies turn AI ambition into working systems. Typical engagements include AI strategy, generative AI products, machine learning pipelines, backend and integration work, and MLOps practices that keep models reliable in production.",
+          },
+          {
+            title: "Resolving questions directly",
+            body:
+              "We prefer to handle concerns in a direct, human way. If something on the website is unclear or you believe a piece of content needs to be updated, please write to us at info@berrybrainai.com and we will look into it.",
+          },
+          {
+            title: "Copyright and brand",
+            body:
+              "Copy, layout, illustrations, source structure and brand assets shown on this site belong to BerryBrain AI or their respective owners. Re-use, reproduction or commercial distribution requires our written agreement unless the law explicitly allows it.",
+          },
+          {
+            title: "Not legal advice",
+            body:
+              "The information shared on this page is meant to make our setup transparent and is not a substitute for individual legal counsel. Once registry, address or tax details become available, those entries should be added or updated accordingly.",
+          },
         ],
-        note: "Please have this legal notice reviewed by a qualified legal professional before publication, especially if company registration, VAT ID or full postal address details apply.",
+        note:
+          "Before going live with full company filings, please have this imprint reviewed by a qualified legal advisor, especially regarding commercial register, VAT identification or full postal address details.",
       },
       privacy: {
         title: "Privacy Policy",
-        intro: "This Privacy Policy explains how BerryBrain AI handles personal data when you use berrybrainai.com or contact us about AI engineering services.",
+        intro:
+          "This Privacy Policy describes how BerryBrain AI handles personal information when you visit berrybrainai.com or get in touch with us about AI engineering work. We aim to keep things plain, fair and aligned with European data protection rules.",
         sections: [
-          { title: "Controller", body: "BerryBrain AI is responsible for the processing of personal data on this website. You can contact us at info@berrybrainai.com." },
-          { title: "Data we process", body: "We may process information you submit through forms or email, such as your name, company, email address, project details, budget range, timeline, AI maturity and assessment answers. We also process basic technical data required to deliver and secure the website, such as browser type, device information, IP address in server logs and access times." },
-          { title: "Purpose and legal basis", body: "We use personal data to respond to enquiries, prepare consultations, evaluate AI project fit, operate the website and protect our services. Processing is based on your request, our legitimate interest in running a secure business website and, where required, your consent." },
-          { title: "Contact and assessment forms", body: "When you submit an assessment or enquiry, the provided information is used to understand your business needs and to contact you about a potential project. Please do not submit sensitive personal data or confidential third-party data through public forms." },
-          { title: "Email communication", body: "If you contact us by email, we process your email address, message content and related metadata to handle your request and maintain business correspondence." },
-          { title: "Cookies and local storage", body: "The website may use technically necessary browser storage, for example to remember your selected language. We do not use this information to create advertising profiles." },
-          { title: "Storage period", body: "We keep enquiry data only as long as necessary to respond, manage the business relationship and meet legal obligations. If no cooperation follows, we regularly review and delete data that is no longer needed." },
-          { title: "Recipients", body: "We do not sell personal data. Data may be processed by trusted technical service providers that help us operate the website, communication tools and hosting infrastructure." },
-          { title: "International transfers", body: "Where service providers process data outside the European Economic Area, we rely on appropriate safeguards such as contractual protections or adequacy decisions where applicable." },
-          { title: "Security", body: "We apply appropriate technical and organisational measures to protect personal data against unauthorised access, loss, misuse and alteration. No internet-based service can be guaranteed to be completely secure." },
-          { title: "Your rights", body: "Subject to applicable law, you may request access, correction, deletion, restriction, portability or object to processing. You can also lodge a complaint with a competent data protection authority." },
-          { title: "Contact", body: "For privacy requests, email info@berrybrainai.com." },
+          {
+            title: "Who is responsible",
+            body:
+              "BerryBrain AI is the controller for personal data collected through this website. If you have any privacy question or request, write to info@berrybrainai.com and a real person will reply.",
+          },
+          {
+            title: "Information we collect",
+            body:
+              "We only work with the data we genuinely need. That can include the name, company, work email, project context, budget range, timeline and AI maturity you share through our forms or by email, plus the answers you give in the AI Readiness Assessment. In addition, our hosting infrastructure stores standard technical signals such as browser type, device information, IP address and timestamps for security and stability purposes.",
+          },
+          {
+            title: "Why we use this data",
+            body:
+              "We use what you share to reply to your enquiry, prepare a relevant conversation, evaluate the fit of a potential project, run the website safely and improve how we communicate. The legal basis is your request, our legitimate interest in operating a secure business website, or your consent where required by law.",
+          },
+          {
+            title: "Forms and assessment",
+            body:
+              "When you submit the contact or AI assessment form, the answers help us understand your situation and decide how we can help. Please avoid sending sensitive personal data, regulated information or confidential third-party material through any public form.",
+          },
+          {
+            title: "Email correspondence",
+            body:
+              "If you reach out by email, we process your address, the message itself and related metadata to handle your request and continue the business conversation in a normal, professional way.",
+          },
+          {
+            title: "Cookies and browser storage",
+            body:
+              "The site relies only on the browser storage that is technically required, for example to remember your preferred language. We do not run advertising profiles or cross-site tracking from this website.",
+          },
+          {
+            title: "How long we keep data",
+            body:
+              "We keep enquiry information only for as long as it is useful, typically the time needed to reply, deliver an engagement or meet our legal obligations. When no project follows, we review and remove information that is no longer needed.",
+          },
+          {
+            title: "Who else may process data",
+            body:
+              "We do not sell personal data. Carefully selected service providers may process data on our behalf to operate hosting, email delivery, analytics or productivity tools that we use to run the business. They act under written instructions and appropriate safeguards.",
+          },
+          {
+            title: "International transfers",
+            body:
+              "Some service providers may process data outside the European Economic Area. In that case, we rely on recognised safeguards such as Standard Contractual Clauses or applicable adequacy decisions to keep your information protected.",
+          },
+          {
+            title: "Security",
+            body:
+              "We apply technical and organisational measures appropriate for a small, focused engineering team — including access controls, encrypted transport and regular review of our tools. No online service can be perfectly secure, but we treat your data with the level of care we would expect for our own.",
+          },
+          {
+            title: "Your rights",
+            body:
+              "Subject to applicable law, you can ask us for access, correction, deletion, restriction, portability or you may object to specific processing. You can also lodge a complaint with a competent data protection authority if you believe we have not handled your data correctly.",
+          },
+          {
+            title: "Get in touch",
+            body:
+              "For any privacy related question or request, please email info@berrybrainai.com and we will respond within a reasonable timeframe.",
+          },
         ],
       },
       terms: {
         title: "Terms & Conditions",
-        intro: "These terms describe the basic rules for using berrybrainai.com and engaging with BerryBrain AI about AI engineering services.",
+        intro:
+          "These terms set out the basic rules for using berrybrainai.com and for engaging with BerryBrain AI about AI engineering services. They are written in everyday language and apply to anyone visiting or contacting us through this website.",
         sections: [
-          { title: "Scope", body: "The website provides information about BerryBrain AI services, including generative AI, machine learning, backend engineering, MLOps and AI strategy support." },
-          { title: "No automatic contract", body: "Submitting a form or contacting us does not create a binding service contract. A contract is formed only when both parties agree on a written proposal, scope of work or separate agreement." },
-          { title: "Service information", body: "We aim to keep website content accurate and current, but descriptions, availability and outcomes are non-binding unless confirmed in a specific agreement." },
-          { title: "AI project outcomes", body: "AI systems depend on data quality, use case complexity, third-party services, model behaviour and operational constraints. We do not promise specific performance, revenue, automation rates or regulatory outcomes unless explicitly agreed in writing." },
-          { title: "Client responsibilities", body: "Clients are responsible for providing accurate information, lawful data, required access and timely feedback for any agreed project work." },
-          { title: "Confidentiality", body: "Business information shared during discussions is handled with care. Detailed confidentiality obligations, data handling rules and security requirements should be defined in a separate agreement before sensitive material is exchanged." },
-          { title: "Third-party services", body: "Projects may rely on cloud platforms, AI model providers, APIs, hosting services or open-source packages. Their availability, pricing and terms may change and can affect timelines or operation." },
-          { title: "Intellectual property", body: "Website content, branding and materials belong to BerryBrain AI unless stated otherwise. Project-specific ownership and usage rights are defined in the relevant agreement." },
-          { title: "Acceptable use", body: "You must not misuse the website, attempt unauthorised access, submit unlawful content, interfere with security features or use the website in a way that harms BerryBrain AI or third parties." },
-          { title: "Liability", body: "Use of the website is at your own risk. Liability for services is governed by the applicable agreement and mandatory law." },
-          { title: "Changes", body: "We may update these terms when our website, services or legal requirements change. The version published on this page applies to website use at the time of access." },
-          { title: "Governing law", body: "These terms are intended for a Germany-based business presence and are interpreted under applicable German law unless a separate agreement states otherwise." },
+          {
+            title: "Scope of the website",
+            body:
+              "berrybrainai.com presents the work of BerryBrain AI, including generative AI products, machine learning systems, backend engineering, MLOps practices and AI strategy support. The site is informational and serves as a starting point for a conversation.",
+          },
+          {
+            title: "No contract by browsing",
+            body:
+              "Visiting the website, downloading material or sending us a form does not create a binding service contract. A formal engagement is in place only once both sides agree on a written proposal, statement of work or separate agreement.",
+          },
+          {
+            title: "Information accuracy",
+            body:
+              "We try to keep the descriptions of our services current and honest. Some details, however, may evolve with new technology, new clients or new regulations, so any wording on the website is non-binding until it is reflected in a specific agreement with you.",
+          },
+          {
+            title: "AI outcomes and expectations",
+            body:
+              "Real AI systems depend on data quality, business context, model behaviour, third-party services and operational constraints. Unless we agree otherwise in writing, we do not guarantee specific accuracy, financial impact, automation rates or regulatory outcomes.",
+          },
+          {
+            title: "What we expect from clients",
+            body:
+              "To do good work together, we count on clients to share accurate context, to use lawful and properly sourced data, to grant the access we need for delivery and to provide timely feedback during a project.",
+          },
+          {
+            title: "Confidentiality",
+            body:
+              "Information shared during early conversations is treated with discretion. Detailed confidentiality, data handling and security commitments are formalised in a dedicated agreement before any sensitive data is exchanged.",
+          },
+          {
+            title: "Third-party services",
+            body:
+              "Our work often integrates cloud platforms, AI model providers, APIs, hosting environments or open-source components. Their pricing, availability and terms can change at any time and may influence delivery timelines or operational behaviour.",
+          },
+          {
+            title: "Intellectual property",
+            body:
+              "Copy, brand assets and materials on this website belong to BerryBrain AI unless stated otherwise. The ownership and usage rights for project deliverables are defined separately in the relevant client agreement.",
+          },
+          {
+            title: "Acceptable use",
+            body:
+              "Please do not abuse this website. That includes attempting unauthorised access, submitting unlawful or harmful content, interfering with security mechanisms or using the site in a way that could damage BerryBrain AI, our infrastructure or any third party.",
+          },
+          {
+            title: "Liability",
+            body:
+              "Use of the website is at your own risk. Liability for paid services is governed by the corresponding agreement, applicable mandatory law and accepted business practice in Germany.",
+          },
+          {
+            title: "Changes",
+            body:
+              "We may update these terms when our website, services or legal environment evolve. The version published here applies to website use at the time of access.",
+          },
+          {
+            title: "Governing law",
+            body:
+              "These terms are written for a Germany-based business presence and are interpreted under applicable German law unless a separate written agreement provides otherwise.",
+          },
         ],
       },
     },
@@ -267,59 +386,178 @@ export const translations = {
     legal: {
       impressum: {
         title: "Impressum",
-        intro: "Rechtliche Anbieterkennzeichnung für BerryBrain AI, ein KI-Engineering-Studio für produktionsreife Generative KI, Machine Learning und Backend-Systeme.",
-        providerTitle: "Angaben gemäß § 5 TMG",
-        provider: ["BerryBrain AI", "Deutschland"],
-        contactTitle: "Kontakt",
-        contact: ["E-Mail: info@berrybrainai.com", "Domain: berrybrainai.com"],
-        responsibleTitle: "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
-        responsible: "BerryBrain AI, Deutschland",
-        disclaimerTitle: "Haftung für Inhalte",
-        disclaimer: "Wir erstellen die Inhalte dieser Website mit Sorgfalt. Dennoch können wir keine Gewähr für Vollständigkeit, Richtigkeit und Aktualität übernehmen. Als Diensteanbieter sind wir für eigene Inhalte nach den allgemeinen Gesetzen verantwortlich.",
-        linksTitle: "Haftung für Links",
-        links: "Diese Website kann Links zu externen Websites enthalten. Auf deren Inhalte haben wir keinen Einfluss und übernehmen daher keine Haftung für fremde Inhalte. Verantwortlich ist stets der jeweilige Anbieter oder Betreiber der verlinkten Seiten.",
+        intro:
+          "Dieses Impressum identifiziert BerryBrain AI als verantwortlichen Diensteanbieter. BerryBrain AI ist ein KI-Engineering-Studio mit Fokus auf Generative KI, Machine Learning und produktionsreife Backend-Systeme.",
+        providerTitle: "Diensteanbieter",
+        provider: ["BerryBrain AI", "Standort: Deutschland"],
+        contactTitle: "So erreichen Sie uns",
+        contact: ["E-Mail: info@berrybrainai.com", "Webseite: berrybrainai.com"],
+        responsibleTitle: "Redaktionelle Verantwortung",
+        responsible:
+          "BerryBrain AI verantwortet die redaktionellen Inhalte dieser Website.",
+        disclaimerTitle: "Hinweis zu Inhalten",
+        disclaimer:
+          "Wir erstellen die Inhalte dieser Website mit Sorgfalt. Trotzdem können wir nicht zu jedem Zeitpunkt vollständige Richtigkeit, Aktualität oder Genauigkeit garantieren. Im Rahmen der allgemeinen Gesetze haften wir ausschließlich für eigene Inhalte und nicht für Beiträge, die Dritte beisteuern.",
+        linksTitle: "Verweise auf externe Seiten",
+        links:
+          "Manche Inhalte verweisen auf Webseiten Dritter. Zum Zeitpunkt der Verlinkung prüfen wir diese, dauerhafte Kontrolle ist jedoch nicht möglich. Verantwortlich für die jeweils verlinkten Inhalte bleibt der dortige Anbieter oder Betreiber.",
         sections: [
-          { title: "Beruflicher Fokus", body: "BerryBrain AI erbringt Beratungs- und Engineering-Leistungen für KI-Strategie, Generative-KI-Anwendungen, Machine-Learning-Systeme, Backend-Architektur und MLOps-Implementierung." },
-          { title: "Online-Streitbeilegung", body: "Wir möchten Anliegen direkt und fair klären. Wenn Sie Fragen zu unserer Website oder rechtlichen Informationen haben, kontaktieren Sie uns bitte zuerst unter info@berrybrainai.com." },
-          { title: "Urheberrecht", body: "Texte, Designelemente, Grafiken, Quellstruktur und Markenbestandteile dieser Website sind urheberrechtlich und durch verwandte Schutzrechte geschützt. Vervielfältigung, Verbreitung oder kommerzielle Nutzung bedürfen einer vorherigen schriftlichen Zustimmung, sofern sie nicht gesetzlich erlaubt sind." },
-          { title: "Keine Rechtsberatung", body: "Die Angaben auf dieser Seite dienen der Transparenz und ersetzen keine individuelle Rechtsberatung. Unternehmensdaten können zu ergänzen sein, sobald Registrierungs-, Anschrifts- oder Steuerinformationen vorliegen oder sich ändern." },
+          {
+            title: "Was wir tun",
+            body:
+              "BerryBrain AI begleitet Unternehmen dabei, KI-Ideen in funktionierende Systeme zu überführen. Typische Themen sind KI-Strategie, generative KI-Produkte, Machine-Learning-Pipelines, Backend- und Integrationsarbeit sowie MLOps-Praktiken, die Modelle dauerhaft betreibbar machen.",
+          },
+          {
+            title: "Anliegen direkt klären",
+            body:
+              "Wir bevorzugen einen direkten und menschlichen Umgang mit Anliegen. Sollte etwas auf dieser Website unklar sein oder eine Information ergänzt werden müssen, schreiben Sie uns einfach an info@berrybrainai.com.",
+          },
+          {
+            title: "Urheberrecht und Marke",
+            body:
+              "Texte, Layouts, Grafiken, Quellstruktur und Markenbestandteile dieser Website sind Eigentum von BerryBrain AI oder der jeweiligen Rechteinhaber. Eine Vervielfältigung, Weiterverbreitung oder kommerzielle Nutzung benötigt unsere ausdrückliche schriftliche Zustimmung, sofern das Gesetz keine Ausnahme vorsieht.",
+          },
+          {
+            title: "Keine Rechtsberatung",
+            body:
+              "Die hier veröffentlichten Angaben dienen der Transparenz und ersetzen keine individuelle rechtliche Beratung. Sobald Registereintrag, Anschrift oder Steuerdaten verfügbar sind, sollten diese Felder entsprechend ergänzt oder aktualisiert werden.",
+          },
         ],
-        note: "Bitte lassen Sie dieses Impressum vor Veröffentlichung rechtlich prüfen, insbesondere wenn Handelsregister-, Umsatzsteuer-ID- oder vollständige Anschriftsdaten ergänzt werden müssen.",
+        note:
+          "Bitte lassen Sie dieses Impressum vor einer offiziellen Veröffentlichung durch eine qualifizierte Stelle prüfen, insbesondere im Hinblick auf Handelsregister, Umsatzsteuer-Identifikationsnummer und vollständige Postanschrift.",
       },
       privacy: {
         title: "Datenschutzerklärung",
-        intro: "Diese Datenschutzerklärung erklärt, wie BerryBrain AI personenbezogene Daten verarbeitet, wenn Sie berrybrainai.com nutzen oder uns zu KI-Engineering-Leistungen kontaktieren.",
+        intro:
+          "Diese Datenschutzerklärung erklärt in klarer Sprache, wie BerryBrain AI personenbezogene Daten behandelt, wenn Sie berrybrainai.com besuchen oder uns zu KI-Engineering-Themen kontaktieren. Wir orientieren uns dabei an der DSGVO und an europäischen Datenschutzgrundsätzen.",
         sections: [
-          { title: "Verantwortlicher", body: "BerryBrain AI ist für die Verarbeitung personenbezogener Daten auf dieser Website verantwortlich. Sie erreichen uns unter info@berrybrainai.com." },
-          { title: "Verarbeitete Daten", body: "Wir können Informationen verarbeiten, die Sie über Formulare oder per E-Mail übermitteln, z. B. Name, Unternehmen, E-Mail-Adresse, Projektdetails, Budgetrahmen, Zeitplan, KI-Reifegrad und Antworten im Assessment. Zusätzlich verarbeiten wir technische Basisdaten, die für Bereitstellung und Sicherheit der Website erforderlich sind, etwa Browsertyp, Geräteinformationen, IP-Adresse in Serverprotokollen und Zugriffszeiten." },
-          { title: "Zwecke und Rechtsgrundlagen", body: "Wir nutzen personenbezogene Daten, um Anfragen zu beantworten, Beratungen vorzubereiten, die Eignung von KI-Projekten einzuschätzen, die Website zu betreiben und unsere Dienste zu schützen. Die Verarbeitung basiert auf Ihrer Anfrage, unserem berechtigten Interesse am sicheren Betrieb einer Business-Website und, soweit erforderlich, Ihrer Einwilligung." },
-          { title: "Kontakt- und Assessment-Formulare", body: "Wenn Sie ein Assessment oder eine Anfrage absenden, nutzen wir die Angaben, um Ihren geschäftlichen Bedarf zu verstehen und Sie zu einem möglichen Projekt zu kontaktieren. Bitte übermitteln Sie über öffentliche Formulare keine sensiblen personenbezogenen Daten oder vertraulichen Daten Dritter." },
-          { title: "E-Mail-Kommunikation", body: "Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre E-Mail-Adresse, den Nachrichteninhalt und zugehörige Metadaten, um Ihre Anfrage zu bearbeiten und Geschäftskorrespondenz zu führen." },
-          { title: "Cookies und lokaler Speicher", body: "Die Website kann technisch notwendigen Browserspeicher verwenden, zum Beispiel um Ihre Sprachauswahl zu speichern. Wir nutzen diese Informationen nicht zur Erstellung von Werbeprofilen." },
-          { title: "Speicherdauer", body: "Wir speichern Anfragedaten nur so lange, wie es zur Beantwortung, zur Verwaltung der Geschäftsbeziehung und zur Erfüllung rechtlicher Pflichten erforderlich ist. Kommt keine Zusammenarbeit zustande, prüfen und löschen wir Daten regelmäßig, sobald sie nicht mehr benötigt werden." },
-          { title: "Empfänger", body: "Wir verkaufen keine personenbezogenen Daten. Daten können durch vertrauenswürdige technische Dienstleister verarbeitet werden, die uns beim Betrieb der Website, der Kommunikation und der Hosting-Infrastruktur unterstützen." },
-          { title: "Internationale Übermittlungen", body: "Soweit Dienstleister Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten, stützen wir uns auf geeignete Garantien wie vertragliche Schutzmechanismen oder Angemessenheitsbeschlüsse, sofern anwendbar." },
-          { title: "Sicherheit", body: "Wir treffen angemessene technische und organisatorische Maßnahmen, um personenbezogene Daten vor unbefugtem Zugriff, Verlust, Missbrauch und Veränderung zu schützen. Kein internetbasierter Dienst kann jedoch vollständig sicher garantiert werden." },
-          { title: "Ihre Rechte", body: "Nach Maßgabe des geltenden Rechts können Sie Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit oder Widerspruch gegen die Verarbeitung verlangen. Außerdem können Sie sich bei einer zuständigen Datenschutzaufsichtsbehörde beschweren." },
-          { title: "Kontakt", body: "Für Datenschutzanfragen schreiben Sie bitte an info@berrybrainai.com." },
+          {
+            title: "Verantwortlicher",
+            body:
+              "Verantwortlich für die Verarbeitung personenbezogener Daten auf dieser Website ist BerryBrain AI. Bei Datenschutzanliegen erreichen Sie uns unter info@berrybrainai.com — Ihre Anfrage wird von einer realen Person bearbeitet.",
+          },
+          {
+            title: "Welche Daten wir verarbeiten",
+            body:
+              "Wir arbeiten ausschließlich mit den Daten, die wir wirklich benötigen. Dazu zählen Name, Unternehmen, geschäftliche E-Mail-Adresse, Projektkontext, Budgetrahmen, Zeitplan und KI-Reifegrad, die Sie über unsere Formulare oder per E-Mail mitteilen, sowie Ihre Antworten im KI-Readiness-Assessment. Zusätzlich erfasst unsere Hosting-Infrastruktur technische Standardsignale wie Browsertyp, Geräteinformationen, IP-Adresse und Zeitstempel zu Sicherheits- und Stabilitätszwecken.",
+          },
+          {
+            title: "Warum wir Daten verarbeiten",
+            body:
+              "Wir nutzen die Angaben, um Ihre Anfrage zu beantworten, ein passendes Erstgespräch vorzubereiten, einen möglichen Projekt-Fit einzuschätzen, die Website sicher zu betreiben und unsere Kommunikation zu verbessern. Rechtsgrundlage ist Ihre Anfrage, unser berechtigtes Interesse am sicheren Betrieb einer geschäftlichen Website oder Ihre Einwilligung, sofern gesetzlich erforderlich.",
+          },
+          {
+            title: "Formulare und Assessment",
+            body:
+              "Wenn Sie das Kontakt- oder KI-Assessment-Formular absenden, helfen uns Ihre Angaben, Ihre Situation einzuordnen und über mögliche nächste Schritte nachzudenken. Bitte senden Sie keine besonders sensiblen personenbezogenen Daten, regulierten Informationen oder vertraulichen Drittdaten über öffentliche Formulare.",
+          },
+          {
+            title: "E-Mail-Kommunikation",
+            body:
+              "Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre Adresse, den Inhalt der Nachricht sowie zugehörige Metadaten, um Ihre Anfrage zu bearbeiten und die Kommunikation in geordneter Form fortzuführen.",
+          },
+          {
+            title: "Cookies und Browserspeicher",
+            body:
+              "Diese Website nutzt ausschließlich technisch notwendigen Browserspeicher, etwa um Ihre Sprachauswahl zu merken. Wir setzen keine Werbeprofile oder seitenübergreifendes Tracking ein.",
+          },
+          {
+            title: "Speicherdauer",
+            body:
+              "Anfragedaten speichern wir nur so lange, wie es für die Bearbeitung, eine eventuelle Zusammenarbeit oder gesetzliche Aufbewahrungspflichten erforderlich ist. Kommt keine Zusammenarbeit zustande, prüfen und löschen wir nicht mehr benötigte Daten regelmäßig.",
+          },
+          {
+            title: "Empfänger und Auftragsverarbeiter",
+            body:
+              "Wir verkaufen keine personenbezogenen Daten. Sorgfältig ausgewählte Dienstleister können Daten in unserem Auftrag verarbeiten, etwa für Hosting, E-Mail-Versand, Analyse oder Produktivitätstools, die wir im Geschäftsbetrieb nutzen. Diese arbeiten weisungsgebunden und mit angemessenen Schutzmaßnahmen.",
+          },
+          {
+            title: "Übermittlungen ins Ausland",
+            body:
+              "Manche Dienstleister verarbeiten Daten außerhalb des Europäischen Wirtschaftsraums. In diesen Fällen stützen wir uns auf anerkannte Schutzmechanismen wie Standardvertragsklauseln oder anwendbare Angemessenheitsbeschlüsse.",
+          },
+          {
+            title: "Sicherheit",
+            body:
+              "Wir setzen technische und organisatorische Maßnahmen ein, die zu einem fokussierten Engineering-Team passen, darunter Zugriffskontrollen, verschlüsselte Übertragung und regelmäßige Überprüfung unserer Werkzeuge. Eine vollständige Sicherheit kann im Internet niemand garantieren, wir behandeln Ihre Daten jedoch mit derselben Sorgfalt, die wir uns selbst wünschen.",
+          },
+          {
+            title: "Ihre Rechte",
+            body:
+              "Sie können nach Maßgabe des geltenden Rechts Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit oder Widerspruch gegen bestimmte Verarbeitungen verlangen. Außerdem steht Ihnen das Recht zu, sich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren.",
+          },
+          {
+            title: "Kontakt",
+            body:
+              "Für jede Datenschutzanfrage schreiben Sie uns bitte an info@berrybrainai.com. Wir antworten innerhalb einer angemessenen Frist.",
+          },
         ],
       },
       terms: {
         title: "Allgemeine Geschäftsbedingungen",
-        intro: "Diese Bedingungen beschreiben die grundlegenden Regeln für die Nutzung von berrybrainai.com und die Kontaktaufnahme mit BerryBrain AI zu KI-Engineering-Leistungen.",
+        intro:
+          "Diese Bedingungen beschreiben in klarer Sprache, nach welchen Regeln berrybrainai.com genutzt werden kann und wie ein erster Kontakt mit BerryBrain AI rund um KI-Engineering-Leistungen abläuft. Sie gelten für alle Personen, die diese Website besuchen oder uns über sie erreichen.",
         sections: [
-          { title: "Geltungsbereich", body: "Die Website informiert über Leistungen von BerryBrain AI, darunter Generative KI, Machine Learning, Backend-Engineering, MLOps und KI-Strategieberatung." },
-          { title: "Kein automatischer Vertragsschluss", body: "Das Absenden eines Formulars oder eine Kontaktaufnahme begründet keinen verbindlichen Dienstleistungsvertrag. Ein Vertrag entsteht erst, wenn beide Parteien ein schriftliches Angebot, einen Leistungsumfang oder eine separate Vereinbarung bestätigen." },
-          { title: "Leistungsinformationen", body: "Wir bemühen uns, Website-Inhalte aktuell und korrekt zu halten. Beschreibungen, Verfügbarkeit und Ergebnisse sind jedoch unverbindlich, sofern sie nicht in einer konkreten Vereinbarung bestätigt werden." },
-          { title: "Ergebnisse von KI-Projekten", body: "KI-Systeme hängen von Datenqualität, Use-Case-Komplexität, Drittanbietern, Modellverhalten und betrieblichen Rahmenbedingungen ab. Wir garantieren keine bestimmten Leistungswerte, Umsätze, Automatisierungsquoten oder regulatorischen Ergebnisse, sofern dies nicht ausdrücklich schriftlich vereinbart wurde." },
-          { title: "Mitwirkungspflichten", body: "Kunden sind dafür verantwortlich, korrekte Informationen, rechtmäßig nutzbare Daten, erforderliche Zugänge und zeitnahes Feedback für vereinbarte Projektarbeit bereitzustellen." },
-          { title: "Vertraulichkeit", body: "Geschäftliche Informationen, die im Rahmen von Gesprächen geteilt werden, behandeln wir sorgfältig. Detaillierte Vertraulichkeitspflichten, Datenverarbeitungsregeln und Sicherheitsanforderungen sollten vor Austausch sensibler Informationen in einer separaten Vereinbarung geregelt werden." },
-          { title: "Drittanbieter-Dienste", body: "Projekte können Cloud-Plattformen, KI-Modellanbieter, APIs, Hosting-Dienste oder Open-Source-Pakete einbinden. Deren Verfügbarkeit, Preise und Bedingungen können sich ändern und Zeitpläne oder Betrieb beeinflussen." },
-          { title: "Geistiges Eigentum", body: "Website-Inhalte, Branding und Materialien gehören BerryBrain AI, sofern nicht anders angegeben. Projektspezifische Eigentums- und Nutzungsrechte werden in der jeweiligen Vereinbarung geregelt." },
-          { title: "Zulässige Nutzung", body: "Sie dürfen die Website nicht missbrauchen, keine unbefugten Zugriffsversuche unternehmen, keine rechtswidrigen Inhalte übermitteln, keine Sicherheitsfunktionen umgehen und die Website nicht in einer Weise nutzen, die BerryBrain AI oder Dritten schadet." },
-          { title: "Haftung", body: "Die Nutzung der Website erfolgt auf eigenes Risiko. Die Haftung für Leistungen richtet sich nach der jeweiligen Vereinbarung und zwingendem Recht." },
-          { title: "Änderungen", body: "Wir können diese Bedingungen aktualisieren, wenn sich unsere Website, Leistungen oder rechtliche Anforderungen ändern. Es gilt die auf dieser Seite veröffentlichte Fassung zum Zeitpunkt des Website-Zugriffs." },
-          { title: "Anwendbares Recht", body: "Diese Bedingungen sind auf eine Geschäftspräsenz in Deutschland ausgerichtet und werden nach geltendem deutschem Recht ausgelegt, sofern keine separate Vereinbarung etwas anderes vorsieht." },
+          {
+            title: "Geltungsbereich",
+            body:
+              "berrybrainai.com stellt die Arbeit von BerryBrain AI vor, einschließlich generativer KI-Produkte, Machine-Learning-Systeme, Backend-Engineering, MLOps-Praktiken und KI-Strategieberatung. Die Website dient zur Information und als Ausgangspunkt für ein Gespräch.",
+          },
+          {
+            title: "Kein Vertrag durch Nutzung",
+            body:
+              "Der bloße Besuch der Website, das Anschauen von Materialien oder das Absenden eines Formulars begründet keinen verbindlichen Dienstleistungsvertrag. Eine echte Zusammenarbeit kommt erst zustande, wenn beide Seiten ein schriftliches Angebot, einen Leistungsumfang oder eine separate Vereinbarung bestätigen.",
+          },
+          {
+            title: "Inhaltliche Aktualität",
+            body:
+              "Wir versuchen, die Beschreibung unserer Leistungen aktuell und ehrlich zu halten. Manche Details ändern sich jedoch mit neuer Technologie, neuen Kunden oder neuen regulatorischen Anforderungen. Aussagen auf der Website sind daher unverbindlich, bis sie in einer konkreten Vereinbarung bestätigt werden.",
+          },
+          {
+            title: "Erwartungen an KI-Ergebnisse",
+            body:
+              "KI-Systeme hängen von Datenqualität, Geschäftskontext, Modellverhalten, Drittanbietern und betrieblichen Rahmenbedingungen ab. Sofern nicht ausdrücklich schriftlich vereinbart, garantieren wir keine bestimmten Genauigkeitswerte, finanziellen Effekte, Automatisierungsquoten oder regulatorischen Ergebnisse.",
+          },
+          {
+            title: "Mitwirkungspflichten",
+            body:
+              "Damit gemeinsame Arbeit gelingt, erwarten wir von Kundinnen und Kunden korrekte Kontextangaben, rechtmäßig nutzbare Daten, die für die Umsetzung erforderlichen Zugänge sowie zeitnahes Feedback während eines Projekts.",
+          },
+          {
+            title: "Vertraulichkeit",
+            body:
+              "Informationen aus ersten Gesprächen behandeln wir mit Diskretion. Konkrete Vertraulichkeits-, Datenschutz- und Sicherheitspflichten werden in einer separaten Vereinbarung geregelt, bevor sensible Inhalte ausgetauscht werden.",
+          },
+          {
+            title: "Drittanbieter-Dienste",
+            body:
+              "Unsere Arbeit bindet häufig Cloud-Plattformen, KI-Modellanbieter, APIs, Hosting-Umgebungen oder Open-Source-Komponenten ein. Deren Preise, Verfügbarkeit und Bedingungen können sich jederzeit ändern und damit Zeitpläne oder Betrieb beeinflussen.",
+          },
+          {
+            title: "Geistiges Eigentum",
+            body:
+              "Texte, Markenbestandteile und Materialien dieser Website sind Eigentum von BerryBrain AI, sofern nicht anders angegeben. Eigentums- und Nutzungsrechte an Projektergebnissen werden in der jeweiligen Kundenvereinbarung gesondert geregelt.",
+          },
+          {
+            title: "Zulässige Nutzung",
+            body:
+              "Bitte nutzen Sie diese Website nicht missbräuchlich. Insbesondere sind unbefugte Zugriffsversuche, das Übermitteln rechtswidriger oder schädlicher Inhalte, das Umgehen von Sicherheitsmechanismen sowie jede Nutzung untersagt, die BerryBrain AI, unsere Infrastruktur oder Dritte schädigen könnte.",
+          },
+          {
+            title: "Haftung",
+            body:
+              "Die Nutzung der Website erfolgt auf eigenes Risiko. Die Haftung für entgeltliche Leistungen richtet sich nach der jeweiligen Vereinbarung, dem zwingend anwendbaren Recht und üblicher Geschäftspraxis in Deutschland.",
+          },
+          {
+            title: "Änderungen",
+            body:
+              "Wir können diese Bedingungen anpassen, wenn sich Website, Leistungen oder rechtliche Anforderungen weiterentwickeln. Es gilt jeweils die zum Zeitpunkt des Zugriffs auf dieser Seite veröffentlichte Fassung.",
+          },
+          {
+            title: "Anwendbares Recht",
+            body:
+              "Diese Bedingungen sind auf eine Geschäftspräsenz in Deutschland ausgerichtet und werden nach geltendem deutschem Recht ausgelegt, sofern keine separate schriftliche Vereinbarung etwas anderes regelt.",
+          },
         ],
       },
     },
