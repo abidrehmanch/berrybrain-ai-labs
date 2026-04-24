@@ -1,8 +1,8 @@
 const stats = [
-  { value: "10B+", label: "Inferences served monthly" },
-  { value: "<200ms", label: "Median response time" },
-  { value: "99.99%", label: "Platform uptime SLA" },
-  { value: "40+", label: "Supported model providers" },
+  { value: "15+", label: "AI projects delivered" },
+  { value: "8+", label: "Industries served" },
+  { value: "4–6 wk", label: "Typical Proof of Value" },
+  { value: "24h", label: "Response time to enquiries" },
 ];
 
 const Stats = () => (
